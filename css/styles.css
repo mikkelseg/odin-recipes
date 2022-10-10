@@ -118,5 +118,24 @@ body {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   }
   
+  .about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .about-grid1 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  
+  .i-am, .i-like {
+    text-align: center;
+    text-decoration: none
+  }
+  
+  .about-list {
+    list-style: none;
+    padding: 0;
+  }
   
   
